@@ -5,18 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<header>
+<body>
+    <header>
     <nav>
         <button>
-            test
-        </button>
-        <div id="content">
-
-        </div>
+            Home
+        </button>   
     </nav>
+        <div id="content" style="background-image: url('assets/bgImage.jpg');">
+            <h1>Welcome to Something Resturant</h1>
+        </div>
 </header>
-<body>
-    
+<style>
+    #content {
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 600px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: white;
+    }
+    nav{
+        background-color: black;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+</style>
 </body>
 <script src="index.js"></script>
 </html>
