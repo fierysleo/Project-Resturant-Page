@@ -11,16 +11,22 @@
         <button>
             Home
         </button>   
+        <button>
+            Menu
+        </button>
+        <button>
+            About
+        </button>
     </nav>
-        <div id="content" style="background-image: url('assets/bgImage.jpg');">
-            <h1>Welcome to Something Resturant</h1>
-        </div>
-</header>
+        <div id="content"></div>
+    </header>
 <style>
     #content {
         display: flex;
         justify-content: center;
         align-items: top;
+        flex-direction: column;
+        text-align: center;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -28,13 +34,16 @@
         width: 100%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        color: white;
+        color: rgb(255, 255, 255);
+        background-image: url('assets/bgImage.jpg');
     }
     nav{
         background-color: black;
         height: 50px;
         display: flex;
         align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
     }
     nav button{
         background-color: black;
