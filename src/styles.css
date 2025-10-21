@@ -1,0 +1,38 @@
+#content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 600px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: rgb(255, 255, 255);
+        background-image: url('assets/bgImage.jpg');
+    }
+
+    #content img{
+        width: 300px;
+        height: 300px;
+        border-radius: 10%;
+        margin: 0 auto;
+    }
+    nav{
+        background-color: black;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    nav button{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 20px;
+    }
